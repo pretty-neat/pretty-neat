@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #efefef;
+}
+
+h1{
+  font-family: 'Crafty Girls', cursive;
+  color: #2c2c2c;
+  -webkit-animation: blop 1s linear infinite;
+  animation: blop 1s linear infinite;
+  text-shadow: 1px 1px 0px rgba(0, 199, 150, 1);
+}
+
+@-webkit-keyframes blop {
+  0%, 9%, 11%, 59%, 61%, 100% { -webkit-transform: scaleY(1); }
+  10% { -webkit-transform: scaleY(1.4); }
+  60% { -webkit-transform: scaleX(1.2); }
+}
+@keyframes blop {
+  0%, 9%, 11%, 59%, 61%, 100% { transform: scaleY(1); }
+  10% { transform: scaleY(1.4); }
+  60% { transform: scaleX(1.2); }
+}
