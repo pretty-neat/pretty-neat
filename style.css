@@ -23,8 +23,8 @@ body {
 h1{
   font-family: 'Crafty Girls', cursive;
   color: #2c2c2c;
-  -webkit-animation: blop 1s linear infinite;
-  animation: blop 1s linear infinite;
+  -webkit-animation: blop 4s linear infinite;
+  animation: blop 4s linear infinite;
   text-shadow: 1px 1px 0px rgba(0, 199, 150, 1);
 }
 
