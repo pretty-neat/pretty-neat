@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+
 * {
   box-sizing: border-box;
 }
@@ -17,19 +19,17 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   overflow: hidden;
-  background-color: #2a2a2a;
+  background-color: #efefef;
 }
 
 h1{
-  font-family: 'Crafty Girls', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-size:52px;
+  font-weight: 700;
   color: #2c2c2c;
-  -webkit-animation: blop 4s linear infinite;
-  animation: blop 4s linear infinite;
+  -webkit-animation: blop 3s linear infinite;
+  animation: blop 3s linear infinite;
   text-shadow: 1px 1px 0px rgba(0, 199, 150, 1);
-}
-
-img{
-  max-width:100%;
 }
 
 @-webkit-keyframes blop {
